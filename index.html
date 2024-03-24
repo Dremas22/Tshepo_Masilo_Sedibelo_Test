@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tshepo Masilo's test</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0-rc.1/chartjs-plugin-datalabels.min.js"
+        integrity="sha512-+UYTD5L/bU1sgAfWA0ELK5RlQ811q8wZIocqI7+K0Lhh8yVdIoAMEs96wJAIbgFvzynPm36ZCXtkydxu1cs27w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="headerBtn">
+
+             <button class="pieBtn"><a href="#index.html">Pie </a></button>
+            <button class="barBtn"><a href="bar.html">Bar</a></button>
+            <button class="tableBtn"><a href="data-table.html">Table</a></button>
+
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="pieGraphInfo">
+            "This is a pie graph that displays data based on number of installations done per year".
+        </div>
+
+        <div class="chartCard">
+            <div class="chartBox">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./scripts/pieChartScript.js" defer></script>
+</body>
+
+</html>
